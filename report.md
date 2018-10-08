@@ -35,3 +35,6 @@ The coefficient of the Integral term counteracts any systematic bias that preven
 The coefficient of the Derivative term is the weightage of rate of change of the error. This provides stability while the car steers close to the center line and avoids overshooting the center line. For this project, the visual guiding factor to tune this coefficient was to ensure smooth transition to the center line of the car.
 
 ![alt text][video2]
+
+## Final Parameters
+P, I, D coefficients : 0.1, 0.0001, 2.0
