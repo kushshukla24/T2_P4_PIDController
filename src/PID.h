@@ -10,6 +10,8 @@ public:
   double i_error;
   double d_error;
 
+	double last_cte;
+	double sum_cte;
   /*
   * Coefficients
   */ 
@@ -30,7 +32,7 @@ public:
   /*
   * Initialize PID.
   */
-  void Init(double Kp, double Ki, double Kd);
+  void Init(double iKp, double iKi, double iKd);
 
   /*
   * Update the PID error variables given cross track error.
